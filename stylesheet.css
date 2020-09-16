@@ -22,8 +22,18 @@ body {
 h1 {
     font-family: 'PT Serif', serif;
     color: #242424
-    
  }
+ .portrait {
+width: 185px;
+height: 185px;
+object-fit: cover;
+overflow: hidden;
+}
+img {
+margin-right: 10px;
+
+}
+
  
   
   /* Clear floats after the columns */
