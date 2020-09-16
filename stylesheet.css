@@ -2,25 +2,12 @@ html, body {
     
     background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/30/41/wHNtFR.jpg); 
     background-repeat: no-repeat; 
-    background-size: flex !important;
+    background-size: cover !important;
     height: 100%;
-    margin: 0;
+    
   
 }
-body {
-display: flex;
-flex-direction: column;
 
-}
-.wrapper{
-flex: 1 0 auto;
-
-
-}
-.footer {
-flex-shrink: 0;
-
-}
 
 
    
