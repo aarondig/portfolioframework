@@ -1,42 +1,7 @@
-.navbar-brand {
-    font-family: 'PT Serif', serif;
-    color: #fff !important;
-}
-body {
-    background-repeat: no-repeat;
-    background-size: flex;
-    
-    
-   }
-.margin{
-    margin: 5%;
-}
-.col-md-8{
-    float: left;
-    width: 33.33%;
-    padding-bottom: 500px;
-    color: rgb(0, 0, 0) !important;
-    
-  }
-h1 {
-    font-family: 'PT Serif', serif;
-    color: #242424
- }
- .portrait {
-width: 185px;
-height: 185px;
-object-fit: cover;
-overflow: hidden;
-}
-img {
-margin-right: 15px;
-margin-bottom: 5px;
-}
-.row {
-border-top: 20px;
-border-block-color: #ffffff;
 
-}
- 
+
+   
+
+
   
 
