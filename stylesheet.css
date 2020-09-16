@@ -1,7 +1,7 @@
 html, body {
     
-    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/30/41/wHNtFR.jpg); 
-    background-repeat: no-repeat; 
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/30/41/wHNtFR.jpg"); 
+    /* background-repeat: no-repeat;  */
     background-size: cover !important;
     height: 100%;
 }
