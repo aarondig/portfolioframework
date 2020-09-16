@@ -5,8 +5,25 @@
 body {
     background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/30/41/wHNtFR.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: flex;
+    
+    
    }
-.spacer{
-    padding: 20px;
+.margin{
+    margin: 5%;
 }
+.col-md-8{
+    float: left;
+    width: 33.33%;
+    padding-bottom: 500px;
+    color: rgb(0, 0, 0) !important;
+    
+  }
+h1 {
+    font-family: 'PT Serif', serif;
+    color: #242424
+    
+ }
+ 
+  
+  /* Clear floats after the columns */
