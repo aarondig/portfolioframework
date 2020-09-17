@@ -19,7 +19,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <nav class="collapse navbar-collapse" id="navbarNav">
         
         <ul class="navbar-nav ml-auto">
           
@@ -33,43 +33,45 @@
             <a class="nav-link" href="index.html">About </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </nav>
 
-    <div class="margin" style="margin: 5%">
+    <main class="margin" style="margin: 5%">
 
       <article class="container">
-        <div class="row">
+        <section class="row">
           <div class="col-sm-8 p-3 my-3 bg-light text-black" style="padding:40px !important;">
             <span class="text-nowrap">
-            <h1><strong>
-              Contact
-            </strong></h1>
-              <hr>
+              <h1><strong>
+                Contact
+              </strong></h1>
+             <hr>
             </span>
-            <form class="col-sm-8">
-              <div class="form-group">
+
+             <form class="col-sm-8">
+              <figure class="form-group">
                 <label for="exampleInputName1"> Name</label>
                 <input type="name" class="form-control" id="exampleInputName1" placeholder="Name" style="border-radius: 0px !important;">
-              </div>
-              <div class="form-group">
+              </figure>
+              <figure class="form-group">
                 <label for="exampleInputEmail1"> Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="border-radius: 0px !important;">
-              </div>
-              <div class="form-group">
+              </figure>
+              <figure class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" style="margin-bottom: 20px;"></textarea>
-              </div>
-            
+              </figure>
               <button type="submit" class="btn btn-outline-dark btn-md" style="border-radius: 0;margin-left:-10px;padding-left:30px;padding-right:30px;padding-top:15px;padding-bottom:15px;">Submit</button>
-            </form>
-            <form class ="col-sm-4"></form>
+             </form>
+            
+             <form class ="col-sm-4"></form>
+
           </div>
-          <div class=".col-6 .col-md-4">
-          </div>
-        </div>
+        <section class=".col-6 .col-md-4"></section>
+        </section>
       </article>
-    </div>
+
+    </main>
 
 
 
@@ -80,23 +82,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 
-
-  <footer class="container" style="color: #fff">
-
+  <footer class="container footer" style="color: #fff">
     <div class="fixed-bottom">
-
       <div class=  "row justify-content-md-center" style="background-color: rgba(34, 34, 34, 0.673)">
         <div class="text-nowrap" style="width: 100%">
           <div class="mb-2 bg-primary text-white" style="padding-top: 5px"></div>
-          
-        
-        <p class = "text-center" style="padding-bottom: 15px">
-        <br> &copy;Copyright
-        </p>
+            <p class = "text-center" style="padding-bottom: 10px">
+              <br> &copy;Copyright
+            </p>
+        </div>
       </div>
-      </div>
-   <div>
-
   </footer>
-
+  
 </html>
